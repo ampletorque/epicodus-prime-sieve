@@ -1,6 +1,6 @@
 var primeSifter = function(number) {
   var range_prime = range(number, 2);
-  var output_array = [2];
+  var output_array = [];
   // var index = 0;
   range_prime.forEach(function(n) {
     // for (var i = 2; i < number; i++) {
